@@ -1,7 +1,7 @@
 <template>
 <div style="font-size: 44px; text-align: center;">
   <div>
-    <router-link to="/web-index">子路由</router-link> |
+    <router-link to="/web-index">主应用的子路由</router-link> |
   </div>
   <router-view/>
 </div>
