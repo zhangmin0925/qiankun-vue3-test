@@ -9,7 +9,7 @@ const routes = [
     component: Home
   },
   {
-    path: '/web-index',
+    path: '/web-index:pathMatch(.*)',
     name: 'sub',
     component: mini
   }
